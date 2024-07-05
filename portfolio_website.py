@@ -4,7 +4,7 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
-st.image("images/Murtaza.png")
+st.image("images/Picture2.png")
 col1,col2 = st.columns(2)
 with col1:
     st.subheader("HI :wave:")
