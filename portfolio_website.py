@@ -1,16 +1,16 @@
 import streamlit as st
 import google.generativeai as genai
 api_key = st.secrets["GOOGLE_API_KEY"]
-genai.configure(api_key = api_key)
+genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
-
+st.image("images/artificial-intelligent.png")
 col1,col2 = st.columns(2)
 with col1:
     st.subheader("HI :wave:")
     st.title("My Teacher's Name : Murtaza ")
 with col2:
-    st.image("images/Eli.png")
+    st.image("images/Murtaza.png")
 st.title(" ")
 persona = ""
 st.title("Eli's AI Bot ")
@@ -24,9 +24,9 @@ if st.button("ASK", use_container_width=400):
 st.title(" ")
 col1,col2 = st.columns(2)
 with col1:
-    st.subheader("Youtube Channel ")
-    st.write("-  Largest Computer Vision Channel")
-    st.write("- L400k+ Subscribers")
+    st.subheader("Youtube Channel for my Teacher ")
+    st.write("- Largest Computer Vision Channel")
+    st.write("- 400k+ Subscribers")
     st.write("- Over 150 Free Tutorials")
     st.write("- 15 Million+ Views")
     st.write("- 1.5 Million Hours+ Watch time")
@@ -37,30 +37,28 @@ with col2:
 
 st.title(" ")
 st.title("My  Setup ")
-st.image("images/Eli.png")
+st.image("images/ai-banner.png")
 st.title("My Skills")
-st.slider("Programming",0,100,70)
-st.slider("Programming",0,100,85)
-st.slider("Programming",0,100,75)
+st.slider("Student",0,100,70)
+st.slider("Learning Program Python ",0,100,50)
+st.slider("Arduino Programing",0,100,75)
 
-st.file_uploader("upl")
-
+# st.file_uploader("upl")
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/Eli.png")
+    st.image("images/ai-original.png")
 
 
 with col2:
-    st.image("images/Eli.png")
+    st.image("images/Picture1.png")
 
 
 with col3:
-    st.image("images/Eli.png")
-
+    st.image("images/Picture2.png")
 
 st.subheader(" ")
 st.write(" CONTACT")
-st.write("for any inquiries ,please contact me")
-st.write(" ablamhoungo@gmail.com")
+st.write("For any inquiries ,please contact me")
+st.write("ablamhoungo@gmail.com")
