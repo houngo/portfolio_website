@@ -4,7 +4,7 @@ api_key = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
-st.image("images/artificial-intelligent.png")
+st.image("images/Murtaza.png")
 col1,col2 = st.columns(2)
 with col1:
     st.subheader("HI :wave:")
@@ -37,7 +37,7 @@ with col2:
 
 st.title(" ")
 st.title("My  Setup ")
-st.image("images/ai-banner.png")
+st.image("images/Murtaza.png")
 st.title("My Skills")
 st.slider("Student",0,100,70)
 st.slider("Learning Program Python ",0,100,50)
@@ -48,15 +48,15 @@ st.slider("Arduino Programing",0,100,75)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/ai-original.png")
+    st.image("images/Murtaza.png")
 
 
 with col2:
-    st.image("images/Picture1.png")
+    st.image("images/Murtaza.png")
 
 
 with col3:
-    st.image("images/Picture2.png")
+    st.image("images/Murtaza.png")
 
 st.subheader(" ")
 st.write(" CONTACT")
